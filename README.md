@@ -252,9 +252,3 @@ Built with inspiration from:
 - Ollama
 
 ---
-
-<div align="center">
-
-Made with ❤️ for SQL learners and developers.
-
-</div>
