@@ -32,7 +32,7 @@ SQLUMEN follows a layered architecture where each component has a single respons
          Interactive UI
 ```
 
-The AI layer is optional and is executed after deterministic analysis.
+The Intelligence Layer is optional and is executed after deterministic analysis.
 
 ```text
 Graph JSON
@@ -93,7 +93,7 @@ Transforms the semantic model into a versioned internal graph representation.
 
 Runs deterministic optimization rules. No AI is involved.
 
-### AI Layer
+### Intelligence Layer
 
 Receives structured analysis only. It never parses SQL directly.
 

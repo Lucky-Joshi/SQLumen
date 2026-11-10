@@ -53,4 +53,4 @@ Each input enriches the analysis but is not mandatory. DDL and EXPLAIN data are 
 - Analyzer plugins consume the semantic model.
 - The graph builder emits versioned Graph JSON.
 - The rule engine consumes Graph JSON and produces warnings.
-- The context builder prepares structured data for the optional AI layer.
+- The context builder prepares structured data for the optional Intelligence Layer.
