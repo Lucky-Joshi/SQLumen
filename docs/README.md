@@ -13,6 +13,9 @@ SQLUMEN documentation describes the product, architecture, technical contracts, 
 7. [Intelligence](./06_Intelligence/)
 8. [Operations](./07_Operations/)
 
+Project execution and management are maintained in the root-level
+[project-management/](../project-management/) directory.
+
 ## Documentation Phases
 
 | Phase | Purpose |
@@ -25,6 +28,27 @@ SQLUMEN documentation describes the product, architecture, technical contracts, 
 | 05 Testing | Test strategy, fixtures, regression, performance, and acceptance |
 | 06 Intelligence | Context, prompts, explanations, safety, evaluation, and model configuration |
 | 07 Operations | Development, workflow, releases, deployment, contribution, and roadmap |
+
+## Project Management
+
+- [Tasks](../project-management/TASKS.md)
+- [Roadmap](../project-management/ROADMAP.md)
+- [Workflow](../project-management/WORKFLOW.md)
+- [Development Plan](../project-management/DEVELOPMENT_PLAN.md)
+- [Current Phase](../project-management/CURRENT_PHASE.md)
+- [Milestones](../project-management/MILESTONES.md)
+- [Definition of Done](../project-management/DEFINITION_OF_DONE.md)
+- [Master Checklist](../project-management/MASTER_CHECKLIST.md)
+- [Phase Tracker](../project-management/PHASE_TRACKER.md)
+- [Feature Matrix](../project-management/FEATURE_MATRIX.md)
+- [Task Progress](../project-management/TASK_PROGRESS.md)
+- [Implementation Sequence](../project-management/IMPLEMENTATION_SEQUENCE.md)
+- [Dependency Graph](../project-management/DEPENDENCY_GRAPH.md)
+- [Build Status](../project-management/BUILD_STATUS.md)
+- [Completion Dashboard](../project-management/COMPLETION_DASHBOARD.md)
+- [Next Action](../project-management/NEXT_ACTION.md)
+- [Daily Log Template](../project-management/DAILY_LOG_TEMPLATE.md)
+- [Session Handoff](../project-management/SESSION_HANDOFF.md)
 
 ## Current Project Status
 
