@@ -14,19 +14,19 @@ Project Setup
 
 ## Current Objective
 
-Create the project skeleton, reproducible tooling, package boundaries, and
-initial CI checks before implementing SQL behavior.
+Create the application and package skeleton, document dependency direction, and
+verify package boundaries before implementing SQL behavior.
 
 ## Next Tasks
 
-1. T001 — Establish repository tooling.
-2. T002 — Create application and package skeleton.
-3. T003 — Define shared contracts and validation.
+1. T002 — Create application and package skeleton.
+2. T003 — Define shared contracts and validation.
+3. T004 — Implement parser adapter.
 
 ## Blocked Items
 
-- Production implementation is not yet started.
-- No package manifest or application source tree exists yet.
+- T002 package skeleton is not started.
+- Product implementation beyond repository tooling has not started.
 
 ## Completed Items
 
@@ -34,6 +34,8 @@ initial CI checks before implementing SQL behavior.
   Operations documentation.
 - Public repository files and GitHub community configuration.
 - Agent guidance and architecture rules.
+- T001 — repository tooling, strict TypeScript, Vite, ESLint, Prettier,
+  Vitest, editor configuration, and CI quality gates.
 
 ## How to Continue
 

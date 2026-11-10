@@ -9,13 +9,27 @@ and [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Added repository tooling: npm manifest and lockfile, Node.js 22 LTS runtime
+  policy, strict TypeScript, Vite, ESLint, Prettier, Vitest, editor settings,
+  and reproducible development, build, type-check, lint, format, and test
+  commands.
+- Added a fail-fast Node.js version guard and unit tests for the runtime policy.
+- Added a minimal `apps/web` Vite entry point required for the build and
+  development commands; product UI and package boundaries remain future work.
+
 ### Changed
+
+- Consolidated pull-request quality checks into a single CI workflow and made
+  release validation run the full quality gate.
 
 ### Fixed
 
 ### Removed
 
 ### Security
+
+- Forced the patched `minimatch` release to remove moderate-severity audit
+  findings from the development toolchain.
 
 ### Deprecated
 

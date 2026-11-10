@@ -6,15 +6,15 @@ manually estimate them. Completed items must never be deleted.
 
 ## Phase 1 — Foundation
 
-- [ ] Repository tooling and package manifest
-- [ ] TypeScript strict configuration
+- [x] Repository tooling and package manifest
+- [x] TypeScript strict configuration
 - [ ] React and Vite application
-- [ ] ESLint and Prettier
-- [ ] Test runner and scripts
+- [x] ESLint and Prettier
+- [x] Test runner and scripts
 - [ ] `apps/web` and package structure
 - [ ] Shared package boundaries
-- [ ] CI quality checks
-- [ ] Clean install and build
+- [x] CI quality checks
+- [x] Clean install and build
 
 ## Phase 2 — Parser
 

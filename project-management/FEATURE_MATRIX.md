@@ -6,6 +6,7 @@ documentation changes.
 
 | Feature | Category | Priority | Status | Dependencies | Tests | Documentation | Completed | Owner |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Repository tooling | Foundation | P0 | Completed | None | `tests/tooling/environment.test.ts` | [Local Development](../docs/07_Operations/01_Local_Development.md) | Yes | Unassigned |
 | SQL parser | Core | P0 | Not Started | Foundation | Planned | Complete | No | Unassigned |
 | PostgreSQL dialect | Parser | P0 | Not Started | SQL parser | Planned | Complete | No | Unassigned |
 | MySQL dialect | Parser | P0 | Not Started | SQL parser | Planned | Complete | No | Unassigned |

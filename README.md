@@ -150,11 +150,31 @@ AI
 
 ---
 
+# Development
+
+Requirements: Node.js 22 LTS or newer and npm.
+
+```bash
+npm ci
+npm run dev
+```
+
+Quality gates:
+
+```bash
+npm run check
+```
+
+See [Local Development](docs/07_Operations/01_Local_Development.md) for the full
+command reference.
+
+---
+
 # Project Status
 
 Current Stage
 
-Planning & Architecture
+Foundation — repository tooling established
 
 Progress
 
@@ -165,8 +185,9 @@ Progress
 - Testing Strategy
 - Intelligence Layer
 - Operations
+- Repository tooling and CI quality gates
 
-Implementation will begin after architecture is finalized.
+Next milestone: application and package skeleton.
 
 ---
 

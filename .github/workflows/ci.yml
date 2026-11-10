@@ -19,35 +19,23 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version-file: .nvmrc
+          cache: npm
 
       - name: Install dependencies
-        shell: bash
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          elif [ -f package.json ]; then
-            npm install
-          else
-            echo "No package manifest is present; documentation-only checks continue."
-          fi
+        run: npm ci
 
       - name: Type check
-        shell: bash
-        run: |
-          if [ -f package.json ]; then npm run typecheck --if-present; fi
+        run: npm run typecheck
 
       - name: Lint
-        shell: bash
-        run: |
-          if [ -f package.json ]; then npm run lint --if-present; fi
+        run: npm run lint
+
+      - name: Check formatting
+        run: npm run format:check
 
       - name: Test
-        shell: bash
-        run: |
-          if [ -f package.json ]; then npm run test --if-present; fi
+        run: npm test
 
       - name: Build
-        shell: bash
-        run: |
-          if [ -f package.json ]; then npm run build --if-present; fi
+        run: npm run build

@@ -1,6 +1,17 @@
 # Environment Setup
 
+## Runtime Requirements
+
+| Requirement | Supported version | Source of truth |
+| --- | --- | --- |
+| Node.js | 22 LTS or newer | `.nvmrc`, `package.json` engines |
+| npm | Bundled with Node.js | `package-lock.json` |
+
+`engine-strict=true` is enabled in `.npmrc`, and the Vite configuration fails
+fast when the runtime is older than the supported major version.
+
 ## Environment Variables
+
 
 | Variable | Purpose | Default |
 | --- | --- | --- |

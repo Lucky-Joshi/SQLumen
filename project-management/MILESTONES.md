@@ -8,7 +8,7 @@ features.
 
 - **Description:** Tooling and package skeleton.
 - **Dependencies:** None.
-- **Completion:** 0%
+- **Completion:** 50% (T001 complete; T002 pending)
 - **Deliverables:** T001–T002.
 - **Validation:** Clean install, scripts, strict TypeScript, CI, package boundaries.
 

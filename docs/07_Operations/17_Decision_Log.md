@@ -21,3 +21,13 @@ Major architectural and product decisions are recorded here with their date, rea
 **Alternatives:** AI Layer.
 
 **Status:** Accepted.
+
+## 2026-11-10 — Repository Tooling Baseline
+
+**Decision:** Use npm with a committed lockfile, Node.js 22 LTS as the minimum runtime, Vite, strict TypeScript, ESLint flat configuration, Prettier, and Vitest. CI runs install, type checking, linting, formatting verification, tests, and the production build.
+
+**Reason:** Establish reproducible local and CI quality gates before application code is written. npm is the documented default and avoids introducing a second package manager. Vitest shares Vite's module resolution and supports the future React UI tests without a separate transform pipeline.
+
+**Alternatives:** pnpm, Jest, per-package tooling, or deferring quality gates until the application exists.
+
+**Status:** Accepted.

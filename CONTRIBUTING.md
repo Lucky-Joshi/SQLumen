@@ -91,6 +91,20 @@ chore:
 - Prettier required
 - Public APIs documented
 
+# Quality Commands
+
+Run the complete quality gate before opening a pull request:
+
+```bash
+npm ci
+npm run check
+```
+
+The gate runs strict type checking, ESLint, Prettier verification, Vitest, and
+the production build. See
+[docs/07_Operations/01_Local_Development.md](docs/07_Operations/01_Local_Development.md)
+for individual commands.
+
 ---
 
 # Pull Requests

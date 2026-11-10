@@ -5,7 +5,7 @@ Completion percentages are derived from `MASTER_CHECKLIST.md`.
 
 | Phase | Status | Completion | Dependencies | Current Task | Next Task |
 | --- | --- | ---: | --- | --- | --- |
-| Foundation | In Progress | 0% | None | Establish repository tooling | Create application and package skeleton |
+| Foundation | In Progress | 67% | None | Create application and package skeleton | Define shared contracts |
 | Parser | Not Started | 0% | Foundation | None | Define shared contracts |
 | Semantic Model | Not Started | 0% | Parser | None | Implement AST adapter |
 | Analyzer Plugins | Not Started | 0% | Semantic Model | None | Implement plugin framework |
@@ -22,6 +22,9 @@ Completion percentages are derived from `MASTER_CHECKLIST.md`.
 ### Foundation
 
 - **Start date:** 2026-11-10
+- **Progress:** 67% (6 of 9 Phase 1 checklist items)
+- **Completed:** T001 — repository tooling.
+- **Current task:** T002 — application and package skeleton.
 - **Dependencies:** None
 - **Risks:** Introducing application structure that conflicts with documented
   package boundaries.

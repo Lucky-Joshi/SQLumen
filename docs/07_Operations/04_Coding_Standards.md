@@ -10,4 +10,9 @@
 - Preserve deterministic behavior before optional Intelligence features.
 - Surface errors explicitly; do not silently return success-shaped fallbacks.
 
+## Quality Gates
+
+Run `npm run check` before opening a pull request. It runs strict type checking,
+ESLint, Prettier verification, the Vitest suite, and the production build.
+
 Changes should follow existing naming, formatting, localization, and testing patterns.
