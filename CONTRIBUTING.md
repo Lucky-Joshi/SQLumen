@@ -138,3 +138,6 @@ Harassment or abusive behavior will not be tolerated.
 ---
 
 Thank you for helping improve SQLUMEN.
+
+For community standards and vulnerability reporting, see
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [SECURITY.md](SECURITY.md).

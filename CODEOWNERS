@@ -1,0 +1,19 @@
+# Default ownership for the repository.
+* @Lucky-Joshi
+
+# Documentation and project guidance.
+/docs/ @Lucky-Joshi
+/README.md @Lucky-Joshi
+/CONTRIBUTING.md @Lucky-Joshi
+/CHANGELOG.md @Lucky-Joshi
+
+# Application and package code.
+/apps/ @Lucky-Joshi
+/packages/ @Lucky-Joshi
+
+# GitHub automation and community health files.
+/.github/ @Lucky-Joshi
+/CODE_OF_CONDUCT.md @Lucky-Joshi
+/SECURITY.md @Lucky-Joshi
+/SUPPORT.md @Lucky-Joshi
+/CODEOWNERS @Lucky-Joshi
