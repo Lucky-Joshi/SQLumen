@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+.vite/
+.next/
+coverage/
+
+# Package-manager caches and logs
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+data/
+tmp/
+temp/
+
+# Test and tool caches
+.cache/
+.eslintcache
+.stylelintcache
+.tsbuildinfo
+playwright-report/
+test-results/
+
+# IDE and editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated artifacts
+*.tgz
+*.zip
+*.tar.gz
+*.generated.*
+generated/
